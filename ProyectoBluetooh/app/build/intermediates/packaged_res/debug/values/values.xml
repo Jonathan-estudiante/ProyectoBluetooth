@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="ic_launcher_background">#FDFDFD</color>
+    <color name="linearSeparador">#000000</color>
+    <color name="progress_final">#570465</color>
+    <color name="progress_inicio">#9C27B0</color>
+    <color name="progress_medio">#6E197C</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Piano Touch</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#9C27B0</item>
+        <item name="colorPrimaryDark">#710A83</item>
+        <item name="colorOnPrimary">#000000</item>
+
+
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

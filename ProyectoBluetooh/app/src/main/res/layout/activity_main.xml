@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/madera"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/DO"
+            android:layout_width="76dp"
+            android:layout_height="270dp"
+            android:layout_marginStart="532dp"
+            android:backgroundTint="@color/white"
+            android:gravity="bottom|center"
+            android:text="Do"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <ImageButton
+            android:id="@+id/Re"
+            android:layout_width="76dp"
+            android:layout_height="270dp"
+            android:layout_marginStart="76dp"
+            android:backgroundTint="@color/white"
+            android:gravity="bottom|center"
+            android:text="Re"
+            tools:layout_editor_absoluteX="306dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <ImageButton
+            android:id="@+id/Mi"
+            android:layout_width="76dp"
+            android:layout_height="270dp"
+            android:layout_marginStart="152dp"
+            android:backgroundTint="@color/white"
+            android:text="Mi"
+            android:gravity="bottom|center"
+            tools:layout_editor_absoluteX="534dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <ImageButton
+            android:id="@+id/Sol"
+            android:layout_width="76dp"
+            android:layout_height="270dp"
+            android:layout_marginStart="304dp"
+            android:backgroundTint="@color/white"
+            android:text="Sol"
+            android:gravity="bottom|center"
+            tools:layout_editor_absoluteX="458dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <ImageButton
+            android:id="@+id/Fa"
+            android:layout_width="76dp"
+            android:layout_height="270dp"
+            android:layout_marginStart="228dp"
+            android:backgroundTint="@color/white"
+            android:gravity="bottom|center"
+            android:text="Fa"
+
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="230dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <ImageButton
+            android:id="@+id/Do"
+            android:layout_width="76dp"
+            android:layout_height="270dp"
+            android:backgroundTint="@color/white"
+            android:gravity="bottom|center"
+            android:text="Do"
+            tools:layout_editor_absoluteX="382dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <ImageButton
+            android:id="@+id/La"
+            android:layout_width="76dp"
+            android:layout_height="270dp"
+            android:layout_marginStart="380dp"
+            android:backgroundTint="@color/white"
+            android:elevation="-8dp"
+            android:text="La"
+            android:gravity="bottom|center"
+            android:translationZ="-8dp"
+            tools:layout_editor_absoluteX="154dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <ImageButton
+            android:id="@+id/Si"
+            android:layout_width="76dp"
+            android:layout_height="270dp"
+            android:layout_marginStart="456dp"
+            android:backgroundTint="@color/white"
+            android:text="SI"
+            android:gravity="bottom|center"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <ImageButton
+            android:id="@+id/LaM"
+            android:layout_width="44dp"
+            android:layout_height="144dp"
+            android:layout_marginStart="435dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="La#"
+            android:translationZ="200dp"
+            android:textColor="@color/white"
+            android:textSize="28px"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <ImageButton
+            android:id="@+id/SolM"
+            android:layout_width="44dp"
+            android:layout_height="144dp"
+            android:layout_marginStart="357dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="Sol#"
+            android:textColor="@color/white"
+            android:textSize="22px"
+            tools:layout_editor_absoluteX="566dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <ImageButton
+            android:id="@+id/FaM"
+            android:layout_width="44dp"
+            android:layout_height="144dp"
+            android:layout_marginStart="282dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="Fa#"
+            android:textColor="@color/white"
+            android:textSize="28px"
+            tools:layout_editor_absoluteX="434dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <ImageButton
+            android:id="@+id/ReM"
+            android:layout_width="44dp"
+            android:layout_height="144dp"
+            android:layout_marginStart="126dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="Re#"
+            android:textColor="@color/white"
+            android:textSize="28px"
+            tools:layout_editor_absoluteX="358dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <ImageButton
+            android:id="@+id/DoM"
+            android:layout_width="44dp"
+            android:layout_height="144dp"
+            android:layout_marginStart="56dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="Do#"
+            android:textColor="@color/white"
+            android:textSize="28px"
+            tools:layout_editor_absoluteX="285dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <ImageButton
+            android:id="@+id/DOM"
+            android:layout_width="44dp"
+            android:layout_height="144dp"
+            android:layout_marginStart="583dp"
+            android:backgroundTint="@color/black"
+            android:text="Do#"
+            android:textColor="@color/white"
+            android:textSize="28px"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="59dp"/>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
